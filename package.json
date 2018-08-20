@@ -1,0 +1,36 @@
+{
+  "name": "weather_forecast",
+  "version": "1.0.0",
+  "description": "clear channel project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dtest project",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-prettyerror": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorenceNway/weather_forecast.git"
+  },
+  "keywords": [
+    "weather",
+    "forecast"
+  ],
+  "author": "florence nway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorenceNway/weather_forecast/issues"
+  },
+  "homepage": "https://github.com/FlorenceNway/weather_forecast#readme"
+}
