@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clear Channal</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="flickity.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,800,900" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<nav class="selection-bar">
+			<div class="selection">
+				Select a city: 
+				<select id="my_select">
+					<option value=" ">Select</option>
+					<option value="London">London</option>
+					<option value="New York">New York</option>
+					<option value="Rome">Rome</option>
+				</select>
+			</div>
+		</nav>
+
+		<section class="display_body">
+
+			<section class="section-1">
+				<div class="about">
+					<h1 id="cityname">
+						
+					</h1>
+					<p id="description">     
+
+					</p>
+				</div>
+
+				<div class="carousel" data-flickity='{ "resize": false, "wrapAround": true }'>
+				  	<div id="photo" class="carousel-cell">
+												
+					</div>
+					<div id="photo1" class="carousel-cell">
+												
+					</div>
+					<div id="photo2" class="carousel-cell">
+												
+					</div>
+				</div>
+				
+			</section>	
+			
+			<section class="section-2">
+				<div class="forecast">
+					<div id="weather">
+						
+					</div>
+					<div id="datetime">
+						
+					</div>
+				</div>
+
+				<div id="map">
+					
+				</div>
+			</section>	
+			
+		</section>
+		
+	</div>
+	
+
+</body>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</html>
