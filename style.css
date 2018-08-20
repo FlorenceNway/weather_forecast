@@ -86,11 +86,11 @@ h1#cityname {
 }
 
 .carousel-cell {
-  width:65%;
-  height: 300px;
-  margin-right: 10px;
-  background: #000;
-  border-radius: 1px;
+  	width:65%;
+  	height: 300px;
+  	margin-right: 10px;
+  	background: #000;
+  	border-radius: 1px;
 }
 
 .flickity-viewport {
