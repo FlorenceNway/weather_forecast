@@ -5,7 +5,7 @@ const rename = require('gulp-rename');
 const cssnano = require('gulp-cssnano');
 const concat = require("gulp-concat");
 const uglify = require('gulp-uglify');
-const eslint = require('gulp-eslint');
+//const eslint = require('gulp-eslint');
 const prettyError = require('gulp-prettyerror');
 const browserSync = require('browser-sync');
 
