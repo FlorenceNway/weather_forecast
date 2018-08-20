@@ -15,7 +15,6 @@ gulp.task('sass', function() {
   return gulp
     .src('./sass/*.scss', { sourcemaps: true })
     .pipe(prettyError())
-    .pipe(concat('build.css'))
     .pipe(sass())
     .pipe(
       autoprefixer({
