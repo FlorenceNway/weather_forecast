@@ -80,9 +80,9 @@ $(function() {
 							photo1.innerHTML = '';
 							photo2.innerHTML = '';
 
-							photo.innerHTML += `<img src="image/${city}.jpg" alt="${city}">`;
-							photo1.innerHTML += `<img src="image/${city}1.jpg" alt="${city}">`;
-							photo2.innerHTML += `<img src="image/${city}2.jpg" alt="${city}">`;
+							photo.innerHTML += `<img src="./image/${city}.jpg" alt="${city}">`;
+							photo1.innerHTML += `<img src="./image/${city}1.jpg" alt="${city}">`;
+							photo2.innerHTML += `<img src="./image/${city}2.jpg" alt="${city}">`;
 
 
 						}
