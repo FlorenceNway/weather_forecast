@@ -11,7 +11,7 @@ $(function() {
 			days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 		$('#datetime').html(days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ':' + seconds);
-		setInterval(dateTime, 500);
+		setInterval(dateTime, 1000);
 	}
 
 //----------Capitalize first letter of word----------
